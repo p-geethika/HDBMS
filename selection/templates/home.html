@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+<div class="wrap">
+    
+    <a class="button-custom" href="{% url 'login' %}">
+        Student login
+    </a>
+    <a class="button-custom" href="{% url 'warden_login' %}">
+        Admin login
+    </a>
+    <a class="button-custom" href="{% url 'hostel_all' %}">
+        Hostel Info
+    </a>
+    <a class="button-custom" href="https://github.com/p-geethika/SDH">
+        Facial Attendance
+    </a>
+  </div>
+
+{% endblock content %}
+
+
+{% block more_links %}
+   
+{% endblock more_links %}
+
